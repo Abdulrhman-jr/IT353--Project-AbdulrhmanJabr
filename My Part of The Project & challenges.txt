@@ -1,0 +1,15 @@
+My name is Abdulrahman Tawfiq. My role in the project is designing the database that will be
+the main place for storing and retrieving information for the University Events Management System.
+First I Started Creating the main tables and made sure that each column contains only one value.
+then started to make the relationships between the tables based on how the system works.
+One of the challenges I faced while in the project was determining the relationship between two tables.
+I always depended on memorization but when applying the concepts to the actual project, I learned to use a real scenario
+ from the system to determine the correct relationship.
+Another challenge I faced was deciding how to store columns that could have values like Present/Absent.
+I left these fields until the end to decide whether to separate them into another table and make a relation beteen the two tables
+or keep them in the table using a CHECK constraint.
+In our case, one of the fields was the attendance method. I had to decide whether attendance would be recorded by scanning a QR code or
+by showing the attendance number.
+This makes our work easier in the future if we need to create reports. If the field were a text field, one supervisor 
+might enter “QR” while another supervisor might enter “Qr code”.
+ Both mean the same thing, but the database would treat them as different values, which could affect the reports.
